@@ -8,7 +8,7 @@
                 <div class="page-title-right">
                     <ol class="breadcrumb m-0">
                         <li class="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
-                        <li class="breadcrumb-item active">Starter</li>
+                        <li class="breadcrumb-item active">DASHBOARD</li>
                     </ol>
                 </div>
 
@@ -16,7 +16,7 @@
             <div class="page-body">
                 <div class="card">
                     <div class="card-body">
-                        <span>Hai guys !, Sabar ya websitenya masih proses</span>
+                        <span>I AM DASHBOARD</span>
                     </div>
                 </div>
             </div>

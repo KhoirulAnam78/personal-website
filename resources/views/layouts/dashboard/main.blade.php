@@ -31,8 +31,8 @@
 
     <!-- Begin page -->
     <div id="layout-wrapper">
-        @include('layouts.front.header')
-        @include('layouts.front.navbar')
+        @include('layouts.dashboard.header')
+        @include('layouts.dashboard.navbar')
 
         <!-- Vertical Overlay-->
         <div class="vertical-overlay"></div>

@@ -79,10 +79,11 @@
             <ul class="navbar-nav" id="navbar-nav">
                 <li class="nav-item">
                     <a href="{{ route('home') }}" wire:navigate
-                        class="nav-link {{ Route::is('home') ? 'active' : '' }}"><i class="ri-dashboard-2-line"></i>
+                        class="nav-link {{ Route::is('dashboard') ? 'active' : '' }}"><i
+                            class="ri-dashboard-2-line"></i>
                         Dashboard </a>
                 </li>
-                {{-- <li class="menu-title"><span data-key="t-menu">Menu</span></li>
+                <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                 <li class="nav-item">
                     <a class="nav-link menu-link" href="#sidebarDashboards" data-bs-toggle="collapse" role="button"
                         aria-expanded="false" aria-controls="sidebarDashboards">
@@ -1331,7 +1332,7 @@
                             </li>
                         </ul>
                     </div>
-                </li> --}}
+                </li>
 
             </ul>
         </div>

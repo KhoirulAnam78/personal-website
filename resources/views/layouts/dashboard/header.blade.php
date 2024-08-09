@@ -65,9 +65,14 @@
                     <div class="dropdown-menu dropdown-menu-end">
                         <!-- item-->
                         <h6 class="dropdown-header">Welcome Guys!</h6>
-                        <a class="dropdown-item" href="{{ route('login') }}" wire:navigate><i
-                                class="mdi mdi-login text-muted fs-16 align-middle me-1"></i> <span class="align-middle"
-                                data-key="t-login">Login</span></a>
+                        <form method="POST" action="{{ route('logout') }}">
+                            @csrf
+                            <x-dropdown-link :href="route('logout')"
+                                onclick="event.preventDefault();
+                                                this.closest('form').submit();">
+                                {{ __('Log Out') }}
+                            </x-dropdown-link>
+                        </form>
                     </div>
                 </div>
             </div>
