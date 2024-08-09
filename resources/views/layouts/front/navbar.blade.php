@@ -80,7 +80,7 @@
                 <li class="nav-item">
                     <a href="{{ route('home') }}" wire:navigate
                         class="nav-link {{ Route::is('home') ? 'active' : '' }}"><i class="ri-dashboard-2-line"></i>
-                        Dashboard </a>
+                        Home </a>
                 </li>
                 {{-- <li class="menu-title"><span data-key="t-menu">Menu</span></li>
                 <li class="nav-item">

@@ -28,8 +28,8 @@ class Login extends Component
         $credentials->replace($request->all());
         
         $credentials->authenticate();
-
-        return redirect()->intended(RouteServiceProvider::HOME);
+        return $this->redirect(RouteServiceProvider::HOME, navigate: true);
+        // return redirect()->intended();
         
     }
     public function render()
