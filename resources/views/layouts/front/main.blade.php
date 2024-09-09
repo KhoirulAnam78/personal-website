@@ -8,7 +8,7 @@
 <head>
 
     <meta charset="utf-8" />
-    <title>Starter | Velzon - Admin & Dashboard Template</title>
+    <title>Khoirul Anam | Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
@@ -25,6 +25,12 @@
     <link data-navigate-once href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
     <link data-navigate-once href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
+
+    <style>
+        .isyarat {
+            font-family: LPMQ-ISYARAT
+        }
+    </style>
 </head>
 
 <body>

@@ -17,6 +17,13 @@
                 <div class="card">
                     <div class="card-body">
                         <span>Hai guys !, Sabar ya websitenya masih proses</span>
+                        <br>
+                        <div class="fw-bold" wire:poll.1s>
+                            @if ($time)
+                                <h2>{{ $time->desc }}</h2>
+                                <h1>{{ $time->created_at }}</h1>
+                            @endif
+                        </div>
                     </div>
                 </div>
             </div>
